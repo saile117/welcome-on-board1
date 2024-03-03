@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+div{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
+
+section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding-top: 10px;
+}
+
+.article1,
+.article2,
+.article3{
+    width: 75%;
+    height: 250px;  
+}
+.lorem{
+    font-size: 7pt;
+}
+
